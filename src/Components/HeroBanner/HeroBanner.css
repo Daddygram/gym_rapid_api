@@ -6,9 +6,26 @@
 }
 
 .hero-text {
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 35vh;
+    text-align: center;
+    gap: 2rem;
+}
+
+.hero-text p {
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+
+.hero-text h2 {
+    font-size: 5rem;
+    color: antiquewhite;
 }

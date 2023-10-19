@@ -3,8 +3,9 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import ExerciseDetail from './Pages/ExerciseDetail'
-import Footer from './Components/Footer'
 import Navbar from './Components/Navigation/Navbar'
+import Footer from './Components/Footer/Footer'
+import About from './Pages/About/About'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
             <Route path='/' element={<Home />} />
             <Route path='/exercise/:id' element={<ExerciseDetail />} />
         </Routes>
+        <About />
         <Footer />
     </div>
   )

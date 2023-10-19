@@ -26,7 +26,7 @@ const Navbar = () => {
                 Contact
             </Link>
         </div>
-        <button type='button'>Join Now</button>
+        <button className='Btn'><a href="#contact">Join Now</a></button>
     </div>
   )
 }

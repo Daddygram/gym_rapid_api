@@ -142,3 +142,29 @@ body {
       width: 280px;
     }
   }
+
+  .Btn {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    border-width: 2px;
+    border-color: #FF2625;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  
+  .Btn:hover {
+    transform: translateY(-10px);
+    background-color: #FF2625;
+  }
+  
+  .Btn::after {
+    transform: translateY(0);
+  }
+
+  a {
+    text-decoration: none;
+    color: antiquewhite;
+  }
