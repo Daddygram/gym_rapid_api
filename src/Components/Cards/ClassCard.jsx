@@ -1,13 +1,14 @@
 import React from 'react'
 import './ClassCard.css'
 
-const ClassCard = ({ img, title }) => {
+const ClassCard = ({ img, title, data }) => {
   return (
-    <div className='card__box'>
-        <div className='card'>
-            <img src={img} alt="background" />
-            <h1>{title}</h1>
-        </div>
+    <div className='card'>
+      <img src={img} alt="background" />
+      <div className="intro">
+        <h3>{title}</h3>
+        <p>{data}</p>  
+      </div>
     </div>
   )
 }

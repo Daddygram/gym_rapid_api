@@ -1,9 +1,57 @@
-.card__box {
-    display: flex;
+.card {
+    width: 400px;
+    height: 500px;
+    border: 1px black solid;
+    border-radius: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
 }
 
-.card {
-    width: 10rem;
-    height: 13rem;
-    border: 1px black solid;
+.card img {
+    height: 500px;
+    width: fit-content;
+    transition: 0.5s ease-in-out;
+}
+
+.intro {
+    height: 70px;
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 140px;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    transition: 0.5s ease;
+}
+
+.intro h3 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.intro p {
+    font-size: 24px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .intro {
+    height: 220px;
+    bottom: 140px;
+    background: black;
+}
+
+.card:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover img {
+    transform: scale(1.1) rotate(-3deg);
 }
