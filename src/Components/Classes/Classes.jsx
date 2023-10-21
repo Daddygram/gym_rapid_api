@@ -1,6 +1,6 @@
 import React from 'react'
 import './Classes.css'
-import ClassCard from '../../Components/Cards/ClassCard'
+import ClassCard from '../Cards/ClassCard'
 import bodyBuilding from '../../assets/images/bodybuilding.jpg'
 import powerLifting from '../../assets/images/powerlifting.jpg'
 import cardio from '../../assets/images/cardio.jpg'
