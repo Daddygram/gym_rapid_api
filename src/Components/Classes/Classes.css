@@ -1,5 +1,6 @@
 .class__container {
     height: 130vh;
+    overflow: scroll;
 }
 
 .card__box {
