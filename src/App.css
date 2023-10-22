@@ -16,6 +16,7 @@ body {
   
   .right-arrow,
   .left-arrow {
+    width: 34px;
     cursor: pointer;
     background: transparent;
     outline: none;
@@ -79,6 +80,7 @@ body {
   }
   
   .exercise-card img {
+    width: 400px;
     height: 326px;
   }
   
