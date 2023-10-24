@@ -1,13 +1,27 @@
 .footer__container {
     height: 50vh;
+    padding: 70px 30px 50px 30px;
 }
 
 .footer__container-content {
-    margin: 70px 30px 50px 30px;
+    height: 40vh;
+    
 }
 
 .footer__container-addons {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+.item {
+    width: 500px;
+    height: 500px;
+}
+
+.line {
+    width: 100vh/5;
+    border: 1px solid;
+    border-color: rgb(216, 215, 215);
+    border-radius: 50%;
 }

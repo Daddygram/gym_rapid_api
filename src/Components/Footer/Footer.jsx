@@ -6,17 +6,28 @@ const Footer = () => {
     <div className='footer__container'>
       <div className="footer__container-content">
         <div className="footer__container-addons">
-          <div className="diet">
+          <div className="item">
             <h3>Diet</h3>
+            <div className="line" />
+            <p className="uppercase">How to choose food</p>
+            <p className="uppercase">Calorie Counting</p>
+            <p className="uppercase">How to balance macros</p>
           </div>
-          <div className="weight">
+          <div className="item">
             <h3>Weight <br /> Training</h3>
+            <div className="line" />
+            <p className="uppercase">Blogs</p>
+            <p className="uppercase">Perfect Form</p>
+            <p className="uppercase">Coaches</p>
           </div>
-          <div className="exercises">
+          <div className="item">
             <h3>Exercises</h3>
+            <div className="line" />
+            <p className="uppercase">How to use <br /> Equipment</p>
           </div>
-          <div className="subscribe">
+          <div className="item">
             <h3>Subscribe To <br /> Our Newsletter</h3>
+            <div className="line" />
           </div>
         </div>
         <div className="footer__container-info">
