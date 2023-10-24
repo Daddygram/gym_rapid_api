@@ -1,0 +1,13 @@
+.footer__container {
+    height: 50vh;
+}
+
+.footer__container-content {
+    margin: 70px 30px 50px 30px;
+}
+
+.footer__container-addons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

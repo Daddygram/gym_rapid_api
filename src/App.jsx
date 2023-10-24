@@ -5,7 +5,7 @@ import './App.css';
 import ExerciseDetail from './Pages/ExerciseDetail'
 import Home from './Pages/Home';
 import Navbar from './Components/Navigation/Navbar';
-import Footer from './Components/Footer';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
