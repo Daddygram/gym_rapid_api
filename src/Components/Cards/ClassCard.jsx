@@ -3,7 +3,7 @@ import './ClassCard.css'
 
 const ClassCard = ({ img, title, data }) => {
   return (
-    <div className='card'>
+    <div className='cards'>
       <img src={img} alt="background" />
       <div className="intro">
         <h3>{title}</h3>

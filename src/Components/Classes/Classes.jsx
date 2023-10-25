@@ -10,7 +10,7 @@ import bjj from '../../assets/images/bjj.jpg'
 
 const Classes = () => {
   return (
-    <div className='class__container'>
+    <div className='class__container' id='classes'>
       <h2>Classes</h2>
       <div className="card__box">
         <div className="card__box-content">

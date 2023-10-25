@@ -154,7 +154,10 @@ body {
     border-width: 2px;
     border-color: #FF2625;
     border-radius: 20px;
-    transition: all 0.3s;
+  }
+
+  .Btn, a {
+    transition: all .3s ease;
   }
   
   .Btn:hover {

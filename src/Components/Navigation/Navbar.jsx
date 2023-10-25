@@ -7,24 +7,24 @@ const Navbar = () => {
     <div className='nav'>
         <h2 className='nav-logo'>Your <span>Logo</span></h2>
         <div className='nav-menu'>
-            <Link to='/#home' className='nav-links'>
+            <a href='/#home' className='nav-links'>
                 Home
-            </Link>
-            <Link to='/#about' className='nav-links'>
+            </a>
+            <a href='/#about' className='nav-links'>
                 About
-            </Link>
-            <Link to='/#classes' className='nav-links'>
+            </a>
+            <a href='/#classes' className='nav-links'>
                 Classes
-            </Link>
-            <Link to='/#exercises' className='nav-links'>
+            </a>
+            <a href='/#exercises' className='nav-links'>
                 Exercises
-            </Link>
-            <Link to='/#gallery' className='nav-links'>
-                Gallery
-            </Link>
-            <Link to='/#contact' className='nav-links'>
+            </a>
+            <a href='/#pricing' className='nav-links'>
+                Pricing
+            </a>
+            <a href='/#footer' className='nav-links'>
                 Contact
-            </Link>
+            </a>
         </div>
         <button className='Btn'><a href="#contact">Join Now</a></button>
     </div>
