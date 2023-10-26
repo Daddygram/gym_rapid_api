@@ -19,14 +19,14 @@ const Navbar = () => {
             <a href='/#exercises' className='nav-links'>
                 Exercises
             </a>
-            <a href='/#pricing' className='nav-links'>
+            <Link to='/pricing' className='nav-links'>
                 Pricing
-            </a>
-            <a href='/#footer' className='nav-links'>
+            </Link>
+            <a href='/#contact' className='nav-links'>
                 Contact
             </a>
         </div>
-        <button className='Btn'><a href="#contact">Join Now</a></button>
+        <button className='Btn'><a href="/pricing">Join Now</a></button>
     </div>
   )
 }

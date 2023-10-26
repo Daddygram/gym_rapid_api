@@ -25,6 +25,7 @@
     text-decoration: none;
     color: white;
     text-align: center;
+    transition: ease;
 }
 
 .nav-links:hover {

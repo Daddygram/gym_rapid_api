@@ -20,7 +20,7 @@ const About = () => {
                     aspernatur, unde numquam a quisquam tempora?</p>
                   <button className='Btn'><a href="#exercises" style={{color: 'black'}}>Explore Exercises</a></button>
               </div>
-              <img src={aboutPic} alt="Weights" className='img'/>
+              <img src={aboutPic} alt="Weights" className='about-img'/>
           </div>
         </div>
       </div>

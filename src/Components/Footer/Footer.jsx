@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='footer__container' id='footer'>
+    <div className='footer__container' id='contact'>
       <div className="footer__container-content">
         <div className="footer__container-black">
           <div className="footer__container-addons">
@@ -26,10 +26,10 @@ const Footer = () => {
               <div className="line" />
               <p className="uppercase">How to use <br /> Equipment</p>
             </div>
-            <div className="item item2">
+            <div className="item2">
               <div className="item2-input">
                 <input type="mail" placeholder='example@gmail.com'/>
-                <button className='Btn'>Subscribe</button>
+                <button className='Btn'>Join Now</button>
               </div>
               <div class="card">
                 <a href="/" className="socialContainer containerOne">

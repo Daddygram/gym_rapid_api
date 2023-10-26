@@ -33,7 +33,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 550px;
     gap: 1rem;
 }
 
@@ -49,6 +49,6 @@
     font-size: 20px;
 }
 
-img {
-    width: 600px;
+.about-img {
+    width: 550px;
 }
