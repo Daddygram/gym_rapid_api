@@ -1,13 +1,10 @@
-.prices__container {
-    height: 96vh;
-}
-
 .prices_container-content {
     padding-top: 95px;
 }
 
 .prices__container-cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 2rem;

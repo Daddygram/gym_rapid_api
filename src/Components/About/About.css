@@ -21,6 +21,8 @@
 }
 
 .about__info {
+    width: auto;
+    padding: 50px;
     align-self: center;
     display: flex;
     justify-content: space-between;
@@ -33,7 +35,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 550px;
     gap: 1rem;
 }
 

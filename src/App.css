@@ -9,6 +9,10 @@ body {
     box-sizing: border-box;
   
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
   
   ::-webkit-scrollbar {
     width: 0px;
@@ -143,18 +147,39 @@ body {
     .footer__container-info {
       width: 500px;
     }
+
+    .prices__container {
+      padding-top: 195px;
+  }
   
   }
 
   @media screen and (max-width:1000px) {
-    .item {
-      display: none;
+    .hidden {
+      display: none !important;
+    }
+    
+    .nav-menu {
+      display: none !important;
+    }
+  }
+
+  @media screen and (max-width:700px){
+    .hero-text h2{
+      font-size: 3rem !important;
+    }
+
+    .footer__container-info p {
+      font-size: 0.6rem;
     }
   }
   
   @media screen and (max-width:400px) {
     .exercise-card {
       width: 280px;
+    }
+    .footer__container-info p{
+      font-size: 0.4rem;
     }
   }
 
@@ -182,7 +207,6 @@ body {
     text-decoration: none;
     color: antiquewhite;
     transition: all 0.3s ease;
-    behavior: 'smooth';
   }
 
 h2 {

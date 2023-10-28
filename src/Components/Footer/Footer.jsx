@@ -7,21 +7,21 @@ const Footer = () => {
       <div className="footer__container-content">
         <div className="footer__container-black">
           <div className="footer__container-addons">
-            <div className="item">
+            <div className="item hidden">
               <h3>Diet</h3>
               <div className="line" />
               <p className="uppercase">How to choose food</p>
               <p className="uppercase">Calorie Counting</p>
               <p className="uppercase">How to balance macros</p>
             </div>
-            <div className="item">
+            <div className="item hidden">
               <h3>Weight <br /> Training</h3>
               <div className="line" />
               <p className="uppercase">Blogs</p>
               <p className="uppercase">Perfect Form</p>
               <p className="uppercase">Coaches</p>
             </div>
-            <div className="item">
+            <div className="item hidden">
               <h3>Exercises</h3>
               <div className="line" />
               <p className="uppercase">How to use <br /> Equipment</p>
