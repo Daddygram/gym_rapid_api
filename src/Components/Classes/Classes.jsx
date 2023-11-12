@@ -1,12 +1,12 @@
 import React from 'react'
 import './Classes.css'
 import ClassCard from '../Cards/ClassCard'
-import bodyBuilding from '../../assets/images/bodybuilding.jpg'
-import powerLifting from '../../assets/images/powerlifting.jpg'
-import cardio from '../../assets/images/cardio.jpg'
-import yoga from '../../assets/images/yoga.jpg'
-import boxing from '../../assets/images/boxing.jpg'
-import bjj from '../../assets/images/bjj.jpg'
+import bodyBuilding from '../../assets/images/bodybuilding3.jpg'
+import powerLifting from '../../assets/images/powerlifting2.jpg'
+import cardio from '../../assets/images/cardio2.jpg'
+import yoga from '../../assets/images/yoga2.jpg'
+import boxing from '../../assets/images/boxing2.jpg'
+import bjj from '../../assets/images/bjj2.jpg'
 
 const Classes = () => {
   return (

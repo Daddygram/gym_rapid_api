@@ -181,6 +181,17 @@ body {
     .footer__container-info p{
       font-size: 0.4rem;
     }
+    .cards {
+      width: 300px !important;
+      height: 370px !important;
+    }
+
+    .cards img {
+      width: 300px !important;
+    }
+    .intro h3 {
+      font-size: 30px !important;
+    }
   }
 
   .Btn {
