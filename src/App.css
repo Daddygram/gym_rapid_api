@@ -1,229 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 body {
-    font-family: 'Josefin Sans';
-    background-color: #FAFAFA;
-  }
-  
-  * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  
-  }
+  font-family: 'Public Sans', sans-serif;
+  background-color: #FAFAFA;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  ::-webkit-scrollbar {
-    width: 0px;
-  }
-  
-  .right-arrow,
-  .left-arrow {
-    width: 34px;
-    cursor: pointer;
-    background: transparent;
-    outline: none;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FF2625;
-    font-size: 25px;
-    border-radius: 4px;
-    position: absolute;
-    bottom: -20px;
-    right: 80px;
-    transform: scale(1, 1);
-    transition: 0.3s all ease-in-out;
-  }
-  
-  .right-arrow {
-    right: 140px;
-  }
-  
-  .right-arrow:hover,
-  .left-arrow:hover {
-    transform: scale(1.3, 1.3);
-  }
-  
-  .react-horizontal-scrolling-menu--wrapper {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.right-arrow,
+.left-arrow {
+  width: 34px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FF2625;
+  font-size: 25px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: -20px;
+  right: 80px;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.right-arrow {
+  right: 140px;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+  transform: scale(1.3, 1.3);
+}
+
+.react-horizontal-scrolling-menu--wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail-image {
+  width: 729px;
+  height: 742px;
+}
+
+.hero-banner-img {
+  position: absolute;
+  right: 40px;
+  top: 0px;
+  width: 700px;
+  height: 900px;
+  margin-top: -330px;
+
+}
+
+.exercise-card {
+  width: 400px;
+  height: 445px;
+  background: #fff;
+  border-top: 4px solid #FF2625;
+  border-bottom-left-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 10px;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card img {
+  height: 326px;
+}
+
+.bodyPart-card {
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card:hover,
+.bodyPart-card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.search-btn:hover {
+  color: #FF2625 !important;
+  border: 1px solid #FF2625 !important;
+}
+
+.exercise-video {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 387px;
+  height: 381px;
+  text-decoration: none;
+}
+
+@media screen and (max-width:1200px) {
   .detail-image {
-    width: 729px;
-    height: 742px;
+    width: 300px;
+    height: 300px;
   }
-  
+
+
+  .react-horizontal-scrolling-menu--scroll-container {
+    width: 500px;
+  }
+
+  .left-arrow,
+  .right-arrow {
+    position: static !important;
+  }
+
   .hero-banner-img {
-    position: absolute;
-    right: 40px;
-    top: 0px;
-    width: 700px;
-    height: 900px;
-    margin-top: -330px;
-  
+    display: none;
   }
-  
+
   .exercise-card {
-    width: 400px;
-    height: 445px;
-    background: #fff;
-    border-top: 4px solid #FF2625;
-    border-bottom-left-radius: 20px;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding-bottom: 10px;
-    transform: scale(1, 1);
-    transition: 0.3s all ease-in-out;
+    width: 320px;
   }
-  
-  .exercise-card img {
-    height: 326px;
-  }
-  
-  .bodyPart-card {
-    transform: scale(1, 1);
-    transition: 0.3s all ease-in-out;
-  }
-  
-  .exercise-card:hover,
-  .bodyPart-card:hover {
-    transform: scale(1.1, 1.1);
-  }
-  
-  .search-btn:hover {
-    color: #FF2625 !important;
-    border: 1px solid #FF2625 !important;
-  }
-  
+
   .exercise-video {
-    display: flex;
+    width: 320px;
+    height: 300px;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .footer__container-info {
+    width: 500px;
+  }
+
+  .prices__container {
+    padding-top: 195px;
+}
+
+}
+
+@media screen and (max-width:1000px) {
+  .hidden {
+    display: none !important;
+  }
+  
+  .nav-menu {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:700px){
+  .hero-text h2{
+    font-size: 3rem !important;
+  }
+
+  .footer__container-info p {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .exercise-card {
+    width: 280px;
+  }
+  .exercise-video {
+    width: 250px;
+  }
+  .detail-image {
+    width: 250px;
+    height: 250px;
+  }
+  .footer__container-info {
     flex-direction: column;
-    gap: 24px;
-    width: 387px;
-    height: 381px;
-    text-decoration: none;
   }
-  
-  @media screen and (max-width:1200px) {
-    .detail-image {
-      width: 300px;
-      height: 300px;
-    }
-  
-  
-    .react-horizontal-scrolling-menu--scroll-container {
-      width: 500px;
-    }
-  
-    .left-arrow,
-    .right-arrow {
-      position: static !important;
-    }
-  
-    .hero-banner-img {
-      display: none;
-    }
-  
-    .exercise-card {
-      width: 320px;
-    }
-  
-    .exercise-video {
-      width: 320px;
-      height: 300px;
-    }
-
-    .about-img {
-      display: none;
-    }
-
-    .footer__container-info {
-      width: 500px;
-    }
-
-    .prices__container {
-      padding-top: 195px;
-  }
-  
+  .cards {
+    width: 300px !important;
+    height: 370px !important;
   }
 
-  @media screen and (max-width:1000px) {
-    .hidden {
-      display: none !important;
-    }
-    
-    .nav-menu {
-      display: none !important;
-    }
+  .cards img {
+    width: 300px !important;
   }
+  .intro h3 {
+    font-size: 30px !important;
+  }
+}
 
-  @media screen and (max-width:700px){
-    .hero-text h2{
-      font-size: 3rem !important;
-    }
+.Btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  border-width: 2px;
+  border-color: #FF2625;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0 15px 0 15px;
+  text-wrap: nowrap;
+  white-space: nowrap;
+}
 
-    .footer__container-info p {
-      font-size: 0.6rem;
-    }
-  }
-  
-  @media screen and (max-width:400px) {
-    .exercise-card {
-      width: 280px;
-    }
-    .footer__container-info p{
-      font-size: 0.4rem;
-    }
-    .cards {
-      width: 300px !important;
-      height: 370px !important;
-    }
+.Btn:hover {
+  transform: translateY(-10px);
+  background-color: #FF2625;
+  color: antiquewhite;
+}
 
-    .cards img {
-      width: 300px !important;
-    }
-    .intro h3 {
-      font-size: 30px !important;
-    }
-  }
+.Btn::after {
+  transform: translateY(0);
+}
 
-  .Btn {
-    width: 150px;
-    height: 50px;
-    background-color: transparent;
-    color: white;
-    font-weight: bold;
-    border-width: 2px;
-    border-color: #FF2625;
-    border-radius: 20px;
-  }
-  
-  .Btn:hover {
-    transform: translateY(-10px);
-    background-color: #FF2625;
-  }
-  
-  .Btn::after {
-    transform: translateY(0);
-  }
-
-  .Btn, a {
-    text-decoration: none;
-    color: antiquewhite;
-    transition: all 0.3s ease;
-  }
+.Btn, a {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
 
 h2 {
     font-size: 50px;
     text-align: center;
-    margin-bottom: 30px;
 }
 
 .uppercase {

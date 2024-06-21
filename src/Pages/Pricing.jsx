@@ -9,7 +9,7 @@ const Pricing = () => {
     }, [])
 
   return (
-    <Box sx={{ pt: { lg: '200px', xs: '60px' } }}>
+    <Box sx={{ pt: { lg: '200px', xs: '60px' }}} mb="100px" >
       <Prices />
     </Box>
   )

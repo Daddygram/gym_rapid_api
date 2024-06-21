@@ -7,7 +7,7 @@ const HeroBanner = () => {
       <div className="hero-text">
         <p>Find your energy</p>
         <h2>Make your body fit & Perfect</h2>
-        <button className='Btn'><a href="#classes">Our Classes</a></button>
+        <a href='#classes' className='Btn'>Our Classes</a>
       </div>
     </div>
   )

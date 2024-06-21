@@ -18,7 +18,7 @@ const About = () => {
                     reiciendis ipsam beatae ullam id dolorem ad iste eaque eveniet 
                     voluptates quasi obcaecati quibusdam deleniti cupiditate itaque 
                     aspernatur, unde numquam a quisquam tempora?</p>
-                  <button className='Btn'><a href="#exercises" style={{color: 'black'}}>Explore Exercises</a></button>
+                  <a href='#exercises' className='Btn'>Explore Exercises</a>
               </div>
               <img src={aboutPic} alt="Weights" className='about-img'/>
           </div>

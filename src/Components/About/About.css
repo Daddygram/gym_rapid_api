@@ -1,7 +1,6 @@
 .about__container {
-    height: 100vh;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     align-content: center;
 }
 
@@ -22,6 +21,7 @@
 
 .about__info {
     width: auto;
+    max-width: 1440px;
     padding: 50px;
     align-self: center;
     display: flex;
@@ -48,8 +48,13 @@
 
 .about__info-text p {
     font-size: 20px;
+    font-weight: 300;
+    color: grey;
 }
 
 .about-img {
     width: 550px;
+}
+.about__info-text .Btn {
+    border: 2px solid #FF2625;
 }
