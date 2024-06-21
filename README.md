@@ -23,8 +23,9 @@ cd gym-web-project
 
 ```sh
 npm install
-Running the App
 ```
+
+## Running the App
 
 To run the app in development mode, use the following command:
 ```sh
@@ -37,8 +38,8 @@ To launch the test runner in the interactive watch mode, use:
 
 ```sh
 npm test
-See the section about running tests for more information.
 ```
+See the section about running tests for more information.
 
 ## Building for Production
 To build the app for production to the build folder, use:
